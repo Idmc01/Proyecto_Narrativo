@@ -297,7 +297,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Small_Wooden_Table
+      name: Props_0
       rect:
         serializedVersion: 2
         x: 8
@@ -305,21 +305,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a11feff6b09472c30800000000000000
-      internalID: 4334513479839838490
+      spriteID: 65d0623a715d41c43a43866ec978ef41
+      internalID: -364471550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Wooden_Table_Broken_West
+      name: Props_1
       rect:
         serializedVersion: 2
         x: 24
@@ -327,21 +327,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23ba28d79ce6ec990800000000000000
-      internalID: -7363826529030984910
+      spriteID: 0728ff7437c10c34094b12b6eebb7ccb
+      internalID: 55975909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Small_Wooden_Table_Broken_East
+      name: Props_2
       rect:
         serializedVersion: 2
         x: 40
@@ -349,21 +349,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e178cfce8a2e18990800000000000000
-      internalID: -7385372698752547042
+      spriteID: b1ce4ce27f715c74dac3126d0c8ab29c
+      internalID: -58995935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wide_Wooden_Table
+      name: Props_3
       rect:
         serializedVersion: 2
         x: 56
@@ -371,21 +371,21 @@ TextureImporter:
         width: 16
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f464ddd3767c15fb0800000000000000
-      internalID: -4660724893118282161
+      spriteID: 977fa36a5ff1ee74e9c3b89ef1f8ecaa
+      internalID: 172816937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wide_Wooden_Table_Broken
+      name: Props_4
       rect:
         serializedVersion: 2
         x: 80
@@ -393,21 +393,21 @@ TextureImporter:
         width: 16
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dfb254540a2ad950800000000000000
-      internalID: 6474533612381454296
+      spriteID: 0f37e8e9ca20b3243b86a43fb9d14796
+      internalID: 2143032520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Crate
+      name: Props_5
       rect:
         serializedVersion: 2
         x: 104
@@ -415,21 +415,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 098acc4b124276d40800000000000000
-      internalID: 5577466390707480720
+      spriteID: ff94012587e4c8342b76996bba5cc1dd
+      internalID: 1679622322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Loot_Sack_Knocked_Over
+      name: Props_6
       rect:
         serializedVersion: 2
         x: 119
@@ -437,65 +437,65 @@ TextureImporter:
         width: 9
         height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e6b3ed14d1876a90800000000000000
-      internalID: -7320739921232939290
+      spriteID: e10ca0203fc1a99468851c8d8a5ee6f8
+      internalID: 987471779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Loot_Sack
+      name: Props_7
       rect:
         serializedVersion: 2
         x: 129
         y: 120
-        width: 7
+        width: 28
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8db4d888daede1b00800000000000000
-      internalID: 801322620620196824
+      spriteID: e8a565cff24999f4ab51eafafddadea1
+      internalID: 1238302764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Chair_West_Knocked_Over
+      name: Props_8
       rect:
         serializedVersion: 2
-        x: 189
+        x: 162
         y: 120
-        width: 10
+        width: 37
         height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68846732917b895d0800000000000000
-      internalID: -3055491028573861754
+      spriteID: 3366ec702871c20499b9c80f0574bb3f
+      internalID: -1229440072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Chair_East_Knocked_Over
+      name: Props_9
       rect:
         serializedVersion: 2
         x: 201
@@ -503,21 +503,21 @@ TextureImporter:
         width: 10
         height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3afb07fc0a14027e0800000000000000
-      internalID: -1792360492762611805
+      spriteID: 5c1ce800e6e38de43a8bff2a6e398e7e
+      internalID: 390861286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Candle
+      name: Props_10
       rect:
         serializedVersion: 2
         x: 217
@@ -525,43 +525,43 @@ TextureImporter:
         width: 5
         height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01c38c12ec3492850800000000000000
-      internalID: 6352683301991889936
+      spriteID: c1b94e6cc6b22c94984013a39d6b200f
+      internalID: 323379116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Large_Wooden_Table
+      name: Props_11
       rect:
         serializedVersion: 2
         x: 8
         y: 96
         width: 16
         height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343cdf8ffe17b26f0800000000000000
-      internalID: -708347240892218557
+      spriteID: 3881ece65e2bdf34c879e317fc4a29f5
+      internalID: -996929647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Large_Wooden_Table_Broken
+      name: Props_12
       rect:
         serializedVersion: 2
         x: 32
@@ -569,21 +569,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ae681298a9b8ceb0800000000000000
-      internalID: -4699302077504393560
+      spriteID: a59b042bb2d271d48a372262dbf62587
+      internalID: 2135237844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Long_Wooden_Table
+      name: Props_13
       rect:
         serializedVersion: 2
         x: 56
@@ -591,21 +591,21 @@ TextureImporter:
         width: 8
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6039844e2d838b990800000000000000
-      internalID: -7370078311767567610
+      spriteID: 6f8166d3938dd0e459837c0e2231acc5
+      internalID: -90551276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Long_Wooden_Table_Broken_West
+      name: Props_14
       rect:
         serializedVersion: 2
         x: 72
@@ -613,21 +613,21 @@ TextureImporter:
         width: 8
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32a963944a4874aa0800000000000000
-      internalID: -6176822522777527773
+      spriteID: b4369127075c10c44bd62c1d956c0b85
+      internalID: -787010942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Long_Wooden_Table_Broken_East
+      name: Props_15
       rect:
         serializedVersion: 2
         x: 88
@@ -635,21 +635,43 @@ TextureImporter:
         width: 8
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2696449aa32efc510800000000000000
-      internalID: 1571723536551405922
+      spriteID: 22970e57f39507f4689177cfabb10f73
+      internalID: -2145057759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_Banner_Damaged_3
+      name: Props_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 97
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f58d1d9637bf5b4995158a831b49577
+      internalID: -940884475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_17
       rect:
         serializedVersion: 2
         x: 136
@@ -657,21 +679,21 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: effba9e71b3534870800000000000000
-      internalID: 8665862129789353982
+      spriteID: 8b9a90e026e061b498706c5cd537b322
+      internalID: -746140702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_Banner_Damaged_4
+      name: Props_18
       rect:
         serializedVersion: 2
         x: 144
@@ -679,21 +701,21 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0199c9ec05cb7b9f0800000000000000
-      internalID: -452686182277670640
+      spriteID: c2278d258796ec74daec459d79c178f4
+      internalID: 1680354834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Chair_North
+      name: Props_19
       rect:
         serializedVersion: 2
         x: 153
@@ -701,21 +723,21 @@ TextureImporter:
         width: 6
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a29247528983ac7e0800000000000000
-      internalID: -1744519679538091734
+      spriteID: 5d592d68560fb0947be50aeca116cb57
+      internalID: -1275778195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Chair_South
+      name: Props_20
       rect:
         serializedVersion: 2
         x: 161
@@ -723,21 +745,21 @@ TextureImporter:
         width: 6
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44a055a99092a7b70800000000000000
-      internalID: 8897469135044545092
+      spriteID: fa8bb97bd6f07d3479d7c42b344180c5
+      internalID: -1870870674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Chair_West
+      name: Props_21
       rect:
         serializedVersion: 2
         x: 169
@@ -745,43 +767,43 @@ TextureImporter:
         width: 6
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf316d30b1c0a2360800000000000000
-      internalID: 7145537068944724988
+      spriteID: 7110c67d04e45624a83b061cab751f82
+      internalID: 567543707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden_Chair_East
+      name: Props_22
       rect:
         serializedVersion: 2
         x: 177
         y: 97
-        width: 6
-        height: 9
+        width: 16
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a69807610ff653b0800000000000000
-      internalID: -5523947511434668376
+      spriteID: 5fea08c9a44427a4f9b4ce4879234495
+      internalID: 644123511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Studded_Wooden_Chest_Closed
+      name: Props_23
       rect:
         serializedVersion: 2
         x: 200
@@ -789,21 +811,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 872eeaddb53712490800000000000000
-      internalID: -7772804643466321288
+      spriteID: 658f083801125464aa364ebcb9d6adc0
+      internalID: 139306039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Studded_Wooden_Chest_Open
+      name: Props_24
       rect:
         serializedVersion: 2
         x: 216
@@ -811,21 +833,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317d9eed0f9887db0800000000000000
-      internalID: -4793930135710869741
+      spriteID: 3d68c5ab0ed7d784d9fff2dcd8d8c9df
+      internalID: -1898818829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Shiny_North
+      name: Props_25
       rect:
         serializedVersion: 2
         x: 24
@@ -833,25 +855,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1258a1c6d476172f0800000000000000
-      internalID: -976886061938866911
+      spriteID: 331c306c14e4d65428b21a790219e080
+      internalID: 384899084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Steel_North
+      name: Props_26
       rect:
         serializedVersion: 2
         x: 80
@@ -859,25 +877,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0590eed2d19400f80800000000000000
-      internalID: -8142427736612402864
+      spriteID: 5bf6ab2f921b4be4fb57277fb3d5f66f
+      internalID: 1394188256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Iron_North
+      name: Props_27
       rect:
         serializedVersion: 2
         x: 136
@@ -885,25 +899,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d1e71341d2fd1310800000000000000
-      internalID: 1377524041632965078
+      spriteID: 42bdd89e5e729cf4cb48429e359ffd41
+      internalID: 1004501406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron_Cauldron
+      name: Props_28
       rect:
         serializedVersion: 2
         x: 202
@@ -911,21 +921,21 @@ TextureImporter:
         width: 12
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b4e5e5020525fa30800000000000000
-      internalID: 4248342514113045684
+      spriteID: b4f701f80fc3c534ab04fff05aed2a03
+      internalID: 657813968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Shiny_West
+      name: Props_29
       rect:
         serializedVersion: 2
         x: 8
@@ -933,25 +943,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5def5cafdf88b41a0800000000000000
-      internalID: -6824210185934471467
+      spriteID: 571f4f299773f9342952d4e99dfcc0bf
+      internalID: -1251982229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Shiny_East
+      name: Props_30
       rect:
         serializedVersion: 2
         x: 40
@@ -959,25 +965,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fed1437d24f7a43e0800000000000000
-      internalID: -2068701153768235537
+      spriteID: ff2679b356417184c918d9a94fe31836
+      internalID: 440865134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Steel_West
+      name: Props_31
       rect:
         serializedVersion: 2
         x: 64
@@ -985,25 +987,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1892462e2424ef960800000000000000
-      internalID: 7637614873100429697
+      spriteID: ae9a5e3c1fd513f458f593785a71e30b
+      internalID: -743814929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Steel_East
+      name: Props_32
       rect:
         serializedVersion: 2
         x: 96
@@ -1011,25 +1009,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea44b061c082c1f90800000000000000
-      internalID: -6981661289956555602
+      spriteID: 831bca37211a6c24db16f3d1f4ea00d6
+      internalID: 1157245756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Iron_West
+      name: Props_33
       rect:
         serializedVersion: 2
         x: 120
@@ -1037,25 +1031,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597b39f1e3afaef20800000000000000
-      internalID: 3452847209057597333
+      spriteID: c7f97aa1a253e564da1a99582fe0155f
+      internalID: -12461355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Iron_East
+      name: Props_34
       rect:
         serializedVersion: 2
         x: 152
@@ -1063,25 +1053,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c491f47f542df470800000000000000
-      internalID: 8429934069909918921
+      spriteID: 8b9ba5f674eb6fa448ac539322dba466
+      internalID: 1673221385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Shiny_South
+      name: Props_35
       rect:
         serializedVersion: 2
         x: 24
@@ -1089,25 +1075,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b724739edef90f1a0800000000000000
-      internalID: -6777741595023818117
+      spriteID: e20a44a7c5169274190b93b83a73d4bb
+      internalID: -422866476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Steel_South
+      name: Props_36
       rect:
         serializedVersion: 2
         x: 80
@@ -1115,25 +1097,21 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0139ae0ae7696120800000000000000
-      internalID: 2407569730772218126
+      spriteID: 1ad66a64bc208e544a97ced98ac7bbe2
+      internalID: -534221398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier_Statue_Iron_South
+      name: Props_37
       rect:
         serializedVersion: 2
         x: 136
@@ -1141,261 +1119,279 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -4, y: 2}
-        - {x: -4, y: -6}
-        - {x: 4, y: -6}
-        - {x: 4, y: 2}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76dc3d9ea76e65960800000000000000
-      internalID: 7590507637562920295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Wall_Banner_Damaged_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 97
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7da65f56ce292260800000000000000
-      internalID: 7073236119299992956
+      spriteID: e92e07d3be4600b43a34b42f63990b49
+      internalID: -1638644972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_Banner
+      name: Props_38
       rect:
         serializedVersion: 2
-        x: 120
-        y: 97
-        width: 8
-        height: 9
+        x: 9
+        y: 18
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 038f304f23cd6f5d0800000000000000
-      internalID: -3028991587959703504
+      spriteID: 5d1002d5a26fe6d46b3461a17f54c9f8
+      internalID: -1193947134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_Banner_Damaged_1
+      name: Props_39
       rect:
         serializedVersion: 2
-        x: 112
-        y: 97
-        width: 8
-        height: 9
+        x: 25
+        y: 28
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b91a5668c2598c6f0800000000000000
-      internalID: -664116926571241061
+      spriteID: 0a73a934011571b4c8cbf0a188e94e59
+      internalID: 2138107972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_Banner_Damaged_0
+      name: Props_40
       rect:
         serializedVersion: 2
-        x: 104
-        y: 97
-        width: 8
-        height: 9
+        x: 41
+        y: 18
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f5f9ff838b0b5ed0800000000000000
-      internalID: -2424331314724735504
+      spriteID: be9b62b89c6adb44884c336da762500f
+      internalID: 621718228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clay_Pot
+      name: Props_41
       rect:
         serializedVersion: 2
-        x: 136
-        y: 120
-        width: 8
-        height: 7
+        x: 65
+        y: 18
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4cf53972d768f590800000000000000
-      internalID: -7640242614159672242
+      spriteID: 884b8c2aecbdb4843b1fcbfd1eeda25c
+      internalID: 1027540184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clay_Plate
+      name: Props_42
       rect:
         serializedVersion: 2
-        x: 144
-        y: 121
-        width: 7
-        height: 5
+        x: 81
+        y: 28
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ea36be4f6e65fc40800000000000000
-      internalID: 5545459940517624553
+      spriteID: 227bcffe82b32294889a4a9ace0bbe47
+      internalID: -2051219050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clay_Jar_Red
+      name: Props_43
       rect:
         serializedVersion: 2
-        x: 154
-        y: 123
-        width: 3
-        height: 3
+        x: 97
+        y: 18
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6702390526bbaf4f0800000000000000
-      internalID: -794116353344462730
+      spriteID: d67fe3410554f074fab1351fde46b5c5
+      internalID: -1568286897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clay_Jar_Blue
+      name: Props_44
       rect:
         serializedVersion: 2
-        x: 162
-        y: 123
-        width: 3
-        height: 3
+        x: 121
+        y: 18
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59ac43df871f69780800000000000000
-      internalID: -8676482130136216939
+      spriteID: 93bd670b610031f4ebd1bd600f8702f6
+      internalID: 926151077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Clay_Jar_Green
+      name: Props_45
       rect:
         serializedVersion: 2
-        x: 170
-        y: 123
-        width: 3
-        height: 3
+        x: 137
+        y: 28
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4b20c3eb4b9f4380800000000000000
-      internalID: -8984791981334975670
+      spriteID: ab518e85bfc552248835865ff5ceaec3
+      internalID: -645803514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gold_Coins
+      name: Props_46
       rect:
         serializedVersion: 2
-        x: 178
-        y: 122
-        width: 3
-        height: 3
+        x: 153
+        y: 18
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2ca7f9ca8e490760800000000000000
-      internalID: 7424551818697878573
+      spriteID: bc8b1ce5badc84847a4f92bee18a04e0
+      internalID: 1849741193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wall_Torch
+      name: Props_47
       rect:
         serializedVersion: 2
-        x: 190
-        y: 98
-        width: 3
-        height: 10
+        x: 25
+        y: 4
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f15d46bc3253ab20800000000000000
-      internalID: 3144447385544774128
+      spriteID: 6d840beb2b4738745a1067236c82a492
+      internalID: 1612898115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de012400ef664a84aadaba094b833ab1
+      internalID: 473250713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 4
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca52e641a4bb21e4aaa397b35c551ad6
+      internalID: 1018217985
       vertices: []
       indices: 
       edges: []
@@ -1414,54 +1410,56 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Candle: 6352683301991889936
-      Clay_Jar_Blue: -8676482130136216939
-      Clay_Jar_Green: -8984791981334975670
-      Clay_Jar_Red: -794116353344462730
-      Clay_Plate: 5545459940517624553
-      Clay_Pot: -7640242614159672242
-      Gold_Coins: 7424551818697878573
-      Iron_Cauldron: 4248342514113045684
-      Large_Wooden_Table: -708347240892218557
-      Large_Wooden_Table_Broken: -4699302077504393560
-      Long_Wooden_Table: -7370078311767567610
-      Long_Wooden_Table_Broken_East: 1571723536551405922
-      Long_Wooden_Table_Broken_West: -6176822522777527773
-      Loot_Sack: 801322620620196824
-      Loot_Sack_Knocked_Over: -7320739921232939290
-      Small_Wooden_Table: 4334513479839838490
-      Small_Wooden_Table_Broken_East: -7385372698752547042
-      Small_Wooden_Table_Broken_West: -7363826529030984910
-      Soldier_Statue_Iron_East: 8429934069909918921
-      Soldier_Statue_Iron_North: 1377524041632965078
-      Soldier_Statue_Iron_South: 7590507637562920295
-      Soldier_Statue_Iron_West: 3452847209057597333
-      Soldier_Statue_Shiny_East: -2068701153768235537
-      Soldier_Statue_Shiny_North: -976886061938866911
-      Soldier_Statue_Shiny_South: -6777741595023818117
-      Soldier_Statue_Shiny_West: -6824210185934471467
-      Soldier_Statue_Steel_East: -6981661289956555602
-      Soldier_Statue_Steel_North: -8142427736612402864
-      Soldier_Statue_Steel_South: 2407569730772218126
-      Soldier_Statue_Steel_West: 7637614873100429697
-      Studded_Wooden_Chest_Closed: -7772804643466321288
-      Studded_Wooden_Chest_Open: -4793930135710869741
-      Wall_Banner: -3028991587959703504
-      Wall_Banner_Damaged_0: -2424331314724735504
-      Wall_Banner_Damaged_1: -664116926571241061
-      Wall_Banner_Damaged_2: 7073236119299992956
-      Wall_Banner_Damaged_3: 8665862129789353982
-      Wall_Banner_Damaged_4: -452686182277670640
-      Wall_Torch: 3144447385544774128
-      Wide_Wooden_Table: -4660724893118282161
-      Wide_Wooden_Table_Broken: 6474533612381454296
-      Wooden_Chair_East: -5523947511434668376
-      Wooden_Chair_East_Knocked_Over: -1792360492762611805
-      Wooden_Chair_North: -1744519679538091734
-      Wooden_Chair_South: 8897469135044545092
-      Wooden_Chair_West: 7145537068944724988
-      Wooden_Chair_West_Knocked_Over: -3055491028573861754
-      Wooden_Crate: 5577466390707480720
+      Props_0: -364471550
+      Props_1: 55975909
+      Props_10: 323379116
+      Props_11: -996929647
+      Props_12: 2135237844
+      Props_13: -90551276
+      Props_14: -787010942
+      Props_15: -2145057759
+      Props_16: -940884475
+      Props_17: -746140702
+      Props_18: 1680354834
+      Props_19: -1275778195
+      Props_2: -58995935
+      Props_20: -1870870674
+      Props_21: 567543707
+      Props_22: 644123511
+      Props_23: 139306039
+      Props_24: -1898818829
+      Props_25: 384899084
+      Props_26: 1394188256
+      Props_27: 1004501406
+      Props_28: 657813968
+      Props_29: -1251982229
+      Props_3: 172816937
+      Props_30: 440865134
+      Props_31: -743814929
+      Props_32: 1157245756
+      Props_33: -12461355
+      Props_34: 1673221385
+      Props_35: -422866476
+      Props_36: -534221398
+      Props_37: -1638644972
+      Props_38: -1193947134
+      Props_39: 2138107972
+      Props_4: 2143032520
+      Props_40: 621718228
+      Props_41: 1027540184
+      Props_42: -2051219050
+      Props_43: -1568286897
+      Props_44: 926151077
+      Props_45: -645803514
+      Props_46: 1849741193
+      Props_47: 1612898115
+      Props_48: 473250713
+      Props_49: 1018217985
+      Props_5: 1679622322
+      Props_6: 987471779
+      Props_7: 1238302764
+      Props_8: -1229440072
+      Props_9: 390861286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
