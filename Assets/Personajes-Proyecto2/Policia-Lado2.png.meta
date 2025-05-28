@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Policia-Lado2_0: -5611033911504636012
+      Policia-Lado2_1: 7832796542751101408
+      Policia-Lado2_2: 3165016608316433936
+      Policia-Lado2_3: 2455407696614952411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

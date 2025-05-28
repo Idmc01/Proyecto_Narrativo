@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BigJustice-Lado2_0: -4503810427904501397
+      BigJustice-Lado2_1: 6410950925371917409
+      BigJustice-Lado2_2: -5642721887924032755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
