@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -6,6 +7,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
     private Animator animator;
+
+    private List<string> collectedItems = new List<string>();
 
     void Start()
     {
@@ -26,5 +29,37 @@ public class Player : MonoBehaviour
     {
         rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
     }
+
+    // Funci�n para marcar un objeto como recogido
+    public void CollectItem(string itemName)
+    {
+        if (!collectedItems.Contains(itemName))
+        {
+            collectedItems.Add(itemName);
+            GameManager.instance.AddCollectedItem(itemName);
+            Debug.Log("�Objeto recogido! " + itemName);
+            Dictionary<string, string> nombreObjetos = new Dictionary<string, string>
+        {
+            { "Object1", "pick" },
+            { "Object2", "crowbar" }
+        };
+
+            // Obtener el nombre legible del objeto
+            //string nombreObjetoLegible = nombreObjetos.ContainsKey(itemName) ? nombreObjetos[itemName] : itemName;
+
+
+            //dialogo.dialogos = new string[] { "You got the " + nombreObjetoLegible + "!!" }; // Establecer el mensaje del di�logo
+            //dialogo.gameObject.SetActive(true); // Activar el cuadro de di�logo
+            //dialogo.iniciarDialogo(); // Iniciar el di�logo
+            //PausarJuego();
+        }
+    }
+
+    // Verificar si el jugador ya recogi� un objeto
+    public bool HasCollectedItem(string itemName)
+    {
+        return collectedItems.Contains(itemName);
+    }
 }
+
 
