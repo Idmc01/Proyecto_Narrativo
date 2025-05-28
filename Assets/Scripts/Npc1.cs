@@ -5,80 +5,89 @@ using UnityEngine.UI;
 
 public class Npc1 : MonoBehaviour
 {
-    public GameObject dialoguePanel; // Reference to the dialogue box GameObject
-    public TextMeshProUGUI dialogueText; // Reference to the Text component in the dialogue box
-    public string[] dialogue; // Array of dialogue lines
+    public GameObject dialoguePanel;
+    public TextMeshProUGUI dialogueText;
+    public string[] dialogue;
 
-    // NUEVAS REFERENCIAS PARA EL SEGUNDO CUADRO DE DIÁLOGO
-    public GameObject nameDialoguePanel; // Nuevo panel de diálogo editable desde el editor
-    public TextMeshProUGUI nameDialogueText; // Texto del nuevo panel de diálogo
-    public string[] nameDialogue; // Líneas de diálogo para el nuevo panel
-
-    private int index; // Index of the current dialogue line
+    public GameObject nameDialoguePanel;
+    public TextMeshProUGUI nameDialogueText;
+    public string[] nameDialogue;
 
     public GameObject continuarBTN;
-    public float wordSpeed;
-    private bool isPlayerInRange; // Flag to check if the player is in range
+    public float wordSpeed = 0.05f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private int index = 0;
+    private bool isPlayerInRange;
+    private Coroutine typingCoroutine;
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isPlayerInRange) // Check if the player presses E and is in range
+        if (Input.GetKeyDown(KeyCode.E) && isPlayerInRange)
         {
-            if (dialoguePanel.activeInHierarchy) // If the dialogue panel is active, hide it
+            if (dialoguePanel.activeInHierarchy)
             {
-                zeroText(); // Call the method to clear the text and hide the panel
+                EndDialogue();
             }
-            else // If the dialogue panel is not active, show it and start the dialogue
+            else
             {
-                dialoguePanel.SetActive(true);
-                StartCoroutine(Typing()); // Start the typing coroutine to display the dialogue
-
+                StartDialogue();
             }
         }
-        if (dialogueText.text == dialogue[index]) // Check if the current line of dialogue is fully displayed
+
+        if (dialoguePanel.activeInHierarchy && dialogueText.text == dialogue[index])
         {
-            continuarBTN.SetActive(true); // Show the continue button
+            continuarBTN.SetActive(true);
         }
-        
     }
 
-    public void zeroText()
+    void StartDialogue()
     {
-        dialogueText.text = ""; // Clear the text in the dialogue box
-        index = 0; // Reset the index to start from the first line of dialogue
-        dialoguePanel.SetActive(false); // Hide the dialogue panel
-
-        // OPCIONAL: Si quieres limpiar también el nuevo panel
-        if (nameDialoguePanel != null)
-            nameDialoguePanel.SetActive(false);
-        if (nameDialogueText != null)
-            nameDialogueText.text = "";
+        // Reinicia el índice cada vez que se inicia el diálogo
+        index = 0;
+        dialoguePanel.SetActive(true);
+        dialogueText.text = "";
+        continuarBTN.SetActive(false);
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        typingCoroutine = StartCoroutine(Typing());
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    void EndDialogue()
     {
-        if (collision.CompareTag("Player"))
+        dialoguePanel.SetActive(false);
+        if (nameDialoguePanel != null) nameDialoguePanel.SetActive(false);
+        if (nameDialogueText != null) nameDialogueText.text = "";
+        dialogueText.text = "";
+        continuarBTN.SetActive(false);
+        // No es necesario reiniciar el índice aquí, ya que se reinicia en StartDialogue
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+    }
+
+    public void NextLine()
+    {
+        continuarBTN.SetActive(false);
+        if (index < dialogue.Length - 1)
         {
-            isPlayerInRange = true; // Set the flag to true when the player enters the trigger
+            index++;
+            dialogueText.text = "";
+            if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+            typingCoroutine = StartCoroutine(Typing());
+        }
+        else
+        {
+            EndDialogue();
         }
     }
 
     IEnumerator Typing()
     {
-        foreach (char letter in dialogue[index].ToCharArray()) // Loop through each character in the current dialogue line
+        dialogueText.text = "";
+        foreach (char letter in dialogue[index].ToCharArray())
         {
-            dialogueText.text += letter; // Add the character to the text box
-            yield return new WaitForSeconds(wordSpeed); // Wait for a short duration before adding the next character
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(wordSpeed);
         }
     }
 
-    // NUEVO MÉTODO PARA EL SEGUNDO CUADRO DE DIÁLOGO
     public void ShowNameDialogue(int nameIndex)
     {
         if (nameDialoguePanel != null && nameDialogueText != null && nameDialogue.Length > nameIndex)
@@ -88,26 +97,20 @@ public class Npc1 : MonoBehaviour
         }
     }
 
-    public void NextLine()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        continuarBTN.SetActive(false); // Hide the continue button
-        if (index < dialogue.Length - 1) // Check if there are more lines of dialogue
+        if (collision.CompareTag("Player"))
         {
-            index++; // Move to the next line
-            dialogueText.text = ""; // Clear the text box
-            StartCoroutine(Typing()); // Start the typing coroutine to display the next line
-        }
-        else // If there are no more lines of dialogue, hide the panel and reset the index
-        {
-            zeroText(); // Call the method to clear the text and hide the panel
+            isPlayerInRange = true;
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            isPlayerInRange = false; // Set the flag to true when the player enters the trigger
-            zeroText(); // Call the method to clear the text and hide the panel
+            isPlayerInRange = false;
+            EndDialogue();
         }
     }
 }
