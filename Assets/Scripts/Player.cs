@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -6,6 +7,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
     private Animator animator;
+
+    private List<string> collectedItems = new List<string>();
 
     void Start()
     {
@@ -25,6 +28,37 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+    }
+
+    // Función para marcar un objeto como recogido
+    public void CollectItem(string itemName)
+    {
+        if (!collectedItems.Contains(itemName))
+        {
+            collectedItems.Add(itemName);
+            GameManager.instance.AddCollectedItem(itemName);
+            Debug.Log("¡Objeto recogido! " + itemName);
+            Dictionary<string, string> nombreObjetos = new Dictionary<string, string>
+        {
+            { "Object1", "pick" },
+            { "Object2", "crowbar" }
+        };
+
+            // Obtener el nombre legible del objeto
+            //string nombreObjetoLegible = nombreObjetos.ContainsKey(itemName) ? nombreObjetos[itemName] : itemName;
+
+
+            //dialogo.dialogos = new string[] { "You got the " + nombreObjetoLegible + "!!" }; // Establecer el mensaje del diálogo
+            //dialogo.gameObject.SetActive(true); // Activar el cuadro de diálogo
+            //dialogo.iniciarDialogo(); // Iniciar el diálogo
+            //PausarJuego();
+        }
+    }
+
+    // Verificar si el jugador ya recogió un objeto
+    public bool HasCollectedItem(string itemName)
+    {
+        return collectedItems.Contains(itemName);
     }
 }
 
