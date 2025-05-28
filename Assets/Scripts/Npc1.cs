@@ -8,11 +8,18 @@ public class Npc1 : MonoBehaviour
     public GameObject dialoguePanel; // Reference to the dialogue box GameObject
     public TextMeshProUGUI dialogueText; // Reference to the Text component in the dialogue box
     public string[] dialogue; // Array of dialogue lines
+
+    // NUEVAS REFERENCIAS PARA EL SEGUNDO CUADRO DE DIÁLOGO
+    public GameObject nameDialoguePanel; // Nuevo panel de diálogo editable desde el editor
+    public TextMeshProUGUI nameDialogueText; // Texto del nuevo panel de diálogo
+    public string[] nameDialogue; // Líneas de diálogo para el nuevo panel
+
     private int index; // Index of the current dialogue line
 
     public GameObject continuarBTN;
     public float wordSpeed;
     private bool isPlayerInRange; // Flag to check if the player is in range
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,6 +54,12 @@ public class Npc1 : MonoBehaviour
         dialogueText.text = ""; // Clear the text in the dialogue box
         index = 0; // Reset the index to start from the first line of dialogue
         dialoguePanel.SetActive(false); // Hide the dialogue panel
+
+        // OPCIONAL: Si quieres limpiar también el nuevo panel
+        if (nameDialoguePanel != null)
+            nameDialoguePanel.SetActive(false);
+        if (nameDialogueText != null)
+            nameDialogueText.text = "";
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -62,6 +75,16 @@ public class Npc1 : MonoBehaviour
         {
             dialogueText.text += letter; // Add the character to the text box
             yield return new WaitForSeconds(wordSpeed); // Wait for a short duration before adding the next character
+        }
+    }
+
+    // NUEVO MÉTODO PARA EL SEGUNDO CUADRO DE DIÁLOGO
+    public void ShowNameDialogue(int nameIndex)
+    {
+        if (nameDialoguePanel != null && nameDialogueText != null && nameDialogue.Length > nameIndex)
+        {
+            nameDialoguePanel.SetActive(true);
+            nameDialogueText.text = nameDialogue[nameIndex];
         }
     }
 
