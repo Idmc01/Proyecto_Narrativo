@@ -43,6 +43,10 @@ public class Player : MonoBehaviour
             { "Object1", "pick" },
             { "Object2", "crowbar" }
         };
+            if (itemName == "Crowbar"){
+                UnityEngine.SceneManagement.SceneManager.LoadScene("TalkingtoBigJustice");
+            }
+
 
             // Obtener el nombre legible del objeto
             //string nombreObjetoLegible = nombreObjetos.ContainsKey(itemName) ? nombreObjetos[itemName] : itemName;
