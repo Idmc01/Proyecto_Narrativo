@@ -31,4 +31,8 @@ public class UIControllerTitle : MonoBehaviour
         // Load the title scene
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
+    public void SecondScene()
+    {
+    UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene2");
+    }   
 }
