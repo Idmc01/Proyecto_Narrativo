@@ -41,9 +41,14 @@ public class Player : MonoBehaviour
             Dictionary<string, string> nombreObjetos = new Dictionary<string, string>
         {
             { "Object1", "pick" },
-            { "Object2", "crowbar" }
+            { "Object2", "crowbar" },
+            { "Object3", "scenechanger1" }
         };
             if (itemName == "Crowbar"){
+                UnityEngine.SceneManagement.SceneManager.LoadScene("TalkingtoBigJustice");
+            }
+            if (itemName == "Scenechanger1")
+            {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("TalkingtoBigJustice");
             }
 
