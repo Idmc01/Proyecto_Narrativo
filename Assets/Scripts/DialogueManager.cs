@@ -16,6 +16,9 @@ public class DialogueManager : MonoBehaviour
     private int currentIndex = 0;
     private Coroutine typingCoroutine;
 
+    // Referencia al NPC que inició el diálogo
+    private NPCDialogueTrigger currentNPC;
+
     private void Awake()
     {
         if (Instance == null)
@@ -31,14 +34,18 @@ public class DialogueManager : MonoBehaviour
         continuarBTN.gameObject.SetActive(false);
     }
 
-    public void StartDialogue(string[] lines)
+    // Recibe además la referencia al NPC que inicia el diálogo
+    public void StartDialogue(string[] lines, NPCDialogueTrigger npc)
     {
+        currentNPC = npc;
+
         dialogueLines = lines;
         currentIndex = 0;
         dialoguePanel.SetActive(true);
         continuarBTN.gameObject.SetActive(false);
 
-        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
         typingCoroutine = StartCoroutine(TypeLine());
     }
 
@@ -49,7 +56,8 @@ public class DialogueManager : MonoBehaviour
         if (currentIndex < dialogueLines.Length - 1)
         {
             currentIndex++;
-            if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+            if (typingCoroutine != null)
+                StopCoroutine(typingCoroutine);
             typingCoroutine = StartCoroutine(TypeLine());
         }
         else
@@ -74,6 +82,13 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
         continuarBTN.gameObject.SetActive(false);
+
+        // Notifica al NPC que terminó el diálogo
+        if (currentNPC != null)
+        {
+            currentNPC.OnDialogueEnd();
+            currentNPC = null;
+        }
     }
 }
 
