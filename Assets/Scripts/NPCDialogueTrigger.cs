@@ -4,7 +4,9 @@ public class NPCDialogueTrigger : MonoBehaviour
 {
     public string[] dialogue;
     public GameObject tilemapPuertas; // Arrastra aquí en el inspector el Tilemap "Puertas"
-    public GameObject npcExtra;       // Normalmente este mismo GameObject (puedes usar this.gameObject)
+    public GameObject npcExtra;       // Primer NPC a desactivar
+    public GameObject npcExtra2;      // Segundo NPC a desactivar
+
     private bool isPlayerInRange = false;
 
     void Update()
@@ -58,6 +60,18 @@ public class NPCDialogueTrigger : MonoBehaviour
         {
             Debug.LogWarning("npcExtra es null");
         }
+
+        if (npcExtra2 != null)
+        {
+            Debug.Log("Desactivando npcExtra2...");
+            npcExtra2.SetActive(false);
+            Debug.Log("npcExtra2 desactivado.");
+        }
+        else
+        {
+            Debug.LogWarning("npcExtra2 es null");
+        }
     }
-    }
+}
+
 
