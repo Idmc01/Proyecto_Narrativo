@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f31656700c8de94b8eaec166125c06c
+guid: 8a6904bc0b0ed4743bd951bf1fb98f8d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2794445015796102429
-    second: Escena2-Celda_0
+      213: 8229059718419899372
+    second: Bigtitties-pichazo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena2-Celda_0
+      name: Bigtitties-pichazo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1533eeafecd7c620800000000000000
-      internalID: 2794445015796102429
+      spriteID: ce3e4e7e63e733270800000000000000
+      internalID: 8229059718419899372
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Escena2-Celda_0: 2794445015796102429
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f31656700c8de94b8eaec166125c06c
+guid: 42d330332603dd24f9f481164d5a974c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2794445015796102429
-    second: Escena2-Celda_0
+      213: 1208669219428699350
+    second: John-Atras2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena2-Celda_0
+      name: John-Atras2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2388
-        height: 1668
+        x: 268
+        y: 91
+        width: 1510
+        height: 1857
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1533eeafecd7c620800000000000000
-      internalID: 2794445015796102429
+      spriteID: 6dc0ff2504e06c010800000000000000
+      internalID: 1208669219428699350
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Escena2-Celda_0: 2794445015796102429
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

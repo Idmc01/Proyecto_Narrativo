@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f31656700c8de94b8eaec166125c06c
+guid: fcbc0dea4d91e3f4b9b3eecc9280d6e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2794445015796102429
-    second: Escena2-Celda_0
+      213: -7201262571695820690
+    second: Salendecarcel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena2-Celda_0
+      name: Salendecarcel_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1533eeafecd7c620800000000000000
-      internalID: 2794445015796102429
+      spriteID: e6031cf48d9ff0c90800000000000000
+      internalID: -7201262571695820690
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Escena2-Celda_0: 2794445015796102429
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 5f31656700c8de94b8eaec166125c06c
+guid: 819e956852d60c64b9b4171b623fe512
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2794445015796102429
-    second: Escena2-Celda_0
+      213: -7711734885488117506
+    second: John-Lado12_0
+  - first:
+      213: -7573883124328974410
+    second: John-Lado12_1
+  - first:
+      213: -1114135170880660799
+    second: John-Lado12_2
+  - first:
+      213: -2088122801510893641
+    second: John-Lado12_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena2-Celda_0
+      name: John-Lado12_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2388
-        height: 1668
+        x: 243
+        y: 117
+        width: 1383
+        height: 1790
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1533eeafecd7c620800000000000000
-      internalID: 2794445015796102429
+      spriteID: ef83e7ceaf96af490800000000000000
+      internalID: -7711734885488117506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: John-Lado12_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 129
+        width: 1351
+        height: 1801
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7bb043d6924e690800000000000000
+      internalID: -7573883124328974410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: John-Lado12_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca93eb07fbc980f0800000000000000
+      internalID: -1114135170880660799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: John-Lado12_3
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 0
+        width: 114
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7bc88106f7503e0800000000000000
+      internalID: -2088122801510893641
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ebf84a437a9519e42a563f815193b207
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escena2-Celda_0: 2794445015796102429
+      John-Lado12_0: -7711734885488117506
+      John-Lado12_1: -7573883124328974410
+      John-Lado12_2: -1114135170880660799
+      John-Lado12_3: -2088122801510893641
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

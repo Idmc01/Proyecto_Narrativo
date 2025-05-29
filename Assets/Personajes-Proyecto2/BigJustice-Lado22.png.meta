@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 5f31656700c8de94b8eaec166125c06c
+guid: 3387da39d078edf4f89d2bbc59c35960
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2794445015796102429
-    second: Escena2-Celda_0
+      213: 1991583035435140989
+    second: BigJustice-Lado22_0
+  - first:
+      213: 5784738113890366197
+    second: BigJustice-Lado22_1
+  - first:
+      213: 2054541382462769983
+    second: BigJustice-Lado22_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena2-Celda_0
+      name: BigJustice-Lado22_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2388
-        height: 1668
+        x: 184
+        y: 89
+        width: 1587
+        height: 1897
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1533eeafecd7c620800000000000000
-      internalID: 2794445015796102429
+      spriteID: d774ec7083683ab10800000000000000
+      internalID: 1991583035435140989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigJustice-Lado22_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 87
+        width: 1551
+        height: 1907
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2391d6aa4874050800000000000000
+      internalID: 5784738113890366197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigJustice-Lado22_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b880e7082338c10800000000000000
+      internalID: 2054541382462769983
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3bd3ca4951c55d74c99f114815fd8c6f
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escena2-Celda_0: 2794445015796102429
+      BigJustice-Lado22_0: 1991583035435140989
+      BigJustice-Lado22_1: 5784738113890366197
+      BigJustice-Lado22_2: 2054541382462769983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

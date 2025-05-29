@@ -42,14 +42,21 @@ public class Player : MonoBehaviour
         {
             { "Object1", "pick" },
             { "Object2", "crowbar" },
-            { "Object3", "scenechanger1" }
+            { "Object3", "scenechanger1" },
+            { "Object4", "scenechanger2" }
         };
-            if (itemName == "Crowbar"){
+            if (itemName == "Crowbar")
+            {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("TalkingtoBigJustice");
             }
             if (itemName == "Scenechanger1")
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("TalkingtoBigJustice");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Laberinto");
+            }
+            if (itemName == "Scenechanger2")
+            {
+                Debug.Log("Aqui se hace el cambio de escena");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("GolpesBJ");
             }
 
 
