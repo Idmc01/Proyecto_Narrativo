@@ -33,6 +33,22 @@ public class UIControllerTitle : MonoBehaviour
     }
     public void SecondScene()
     {
-    UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene2");
-    }   
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene2");
+    }
+    public void carScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("PoliceCar");
+    }
+    public void cell1()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("CellScene");
+    }
+    public void cell2()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("CellScene2");
+    }
+    public void final()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("CellScene");//Cambiar a la escena final
+    }
 }

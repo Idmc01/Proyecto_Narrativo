@@ -18,8 +18,17 @@ EditorBuildSettings:
     path: Assets/Scenes/TalkingtoBigJustice.unity
     guid: 1848ff1c241cbde49a10b525cd13a15b
   - enabled: 1
+    path: Assets/Scenes/CellScene.unity
+    guid: f383fc4d583b86140aa6e7c8cdd6891f
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 20dfe4cacabbbe740939dade45a29871
+  - enabled: 1
+    path: Assets/Scenes/CellScene2.unity
+    guid: 4b52cfb28721d664b9a457316ceef93c
+  - enabled: 1
+    path: Assets/Scenes/PoliceCar.unity
+    guid: 6f7d3a80fcbedfe459d3caf458e99e75
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
