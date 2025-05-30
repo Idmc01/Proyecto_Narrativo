@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 42d330332603dd24f9f481164d5a974c
+guid: 5baf1787fa0f0f446bbd2bf39f379f24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1208669219428699350
-    second: John-Atras2_0
+      213: 6187197223460187866
+    second: entrandoLaberinto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: John-Atras2_0
+      name: entrandoLaberinto_0
       rect:
         serializedVersion: 2
-        x: 268
-        y: 91
-        width: 1510
-        height: 1857
+        x: 0
+        y: 0
+        width: 2388
+        height: 1668
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6dc0ff2504e06c010800000000000000
-      internalID: 1208669219428699350
+      spriteID: adea0a3f7175dd550800000000000000
+      internalID: 6187197223460187866
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      John-Atras2_0: 1208669219428699350
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

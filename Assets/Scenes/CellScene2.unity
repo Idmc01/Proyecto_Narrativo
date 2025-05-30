@@ -660,10 +660,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Gurt: John Pork...\n         Escuch\xE9 sobre \xE9l, tiene un aura de
-    misterio a su al rededor...\n         Al parecer tiene todo lo que uno necesite.\n        
+    misterio a su alrededor...\n         Al parecer tiene todo lo que uno necesite.\n        
     \xC9l tendr\xE1 la \xFAltima herramienta para salir.\n         Debo hablar con
     \xE9l en el \xE1rea com\xFAn y convencerlo de ayudarnos.\n         El apoyo de
-    Big Justice servir\xE1"
+    Big Justice servir\xE1."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

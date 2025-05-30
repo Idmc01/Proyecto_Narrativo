@@ -204,7 +204,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1214180548}
         m_TargetAssemblyTypeName: UIControllerTitle, Assembly-CSharp
-        m_MethodName: salida5
+        m_MethodName: salida1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4111215927805960696, guid: bb9df73a4d60bea4e9a392f42dd47b94, type: 3}
+  m_Sprite: {fileID: 6187197223460187866, guid: 5baf1787fa0f0f446bbd2bf39f379f24, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -659,19 +659,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gurt: Ay\xFAdenmeee!\n\nBig Justice: Lo siento Gurt, no podemos perder
-    esta oprtunidad...\n\nGurt: No me abandonen ahora, gracias a mi salieron!!!\n\nJohn
-    Pork: Lo sentimos Gurt, no hay nada que podamos hacer..."
+  m_text: 'Big Justice: Estamos entrando al laberinto. Es lo que hay antes de la
+    salida.
+
+
+    John Pork: Tenemos poco tiempo.
+
+
+    Gurt: Tenemos que correr! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -694,7 +699,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535

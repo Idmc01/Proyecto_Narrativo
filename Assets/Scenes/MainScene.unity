@@ -1538,7 +1538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 751732184292412366, guid: 07373dbdb62543a43889df134ae6f24e, type: 3}
       propertyPath: 'dialogue.Array.data[2]'
-      value: Y eso me aterra
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1493215157349469175, guid: 07373dbdb62543a43889df134ae6f24e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42622,10 +42622,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Big Justice: Que quieres enano?'
-  - 'Big Justice: LARGATE'
+  - "Big Justice: Qu\xE9 quieres enano?"
+  - "Big Justice: L\xC1RGATE"
   - "Big Justice: O har\xE9 que te arrepientas de haber venido"
-  - 'Big Justice: QUE?'
+  - "Big Justice: QU\xC9?"
   - 'Big Justice: Estas planeando escapar?'
   - 'Big Justice: Hmm'
   - 'Big Justice: Tu idea me gusta enano'
@@ -42634,6 +42634,7 @@ MonoBehaviour:
     algo..."
   tilemapPuertas: {fileID: 392119586}
   npcExtra: {fileID: 1288147778}
+  npcExtra2: {fileID: 0}
 --- !u!212 &1600502792
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42699,7 +42700,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -14.48, y: 10.21, z: 0}
-  m_LocalScale: {x: 0.06, y: 0.06, z: 1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -42787,12 +42788,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 202857031415848299, guid: 34da84b7b3719714890a29f04487d5a4, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Aqu\xED es la sala com\xFAn."
+      value: "Aqu\xED es la sala com\xFAn"
       objectReference: {fileID: 0}
     - target: {fileID: 202857031415848299, guid: 34da84b7b3719714890a29f04487d5a4, type: 3}
       propertyPath: 'dialogue.Array.data[1]'
-      value: Puedes hablar con otros reclusos pero ten en cuenta que te estaremos
-        vigilando
+      value: Te estoy vigilando
       objectReference: {fileID: 0}
     - target: {fileID: 5575386950498509783, guid: 34da84b7b3719714890a29f04487d5a4, type: 3}
       propertyPath: m_Name
@@ -43040,8 +43040,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 751732184292412366, guid: 07373dbdb62543a43889df134ae6f24e, type: 3}
       propertyPath: 'dialogue.Array.data[0]'
-      value: "Este tipo no me deja de hablar de porque deberiamos comprar cartas
-        estando en prisi\xF3n"
+      value: "Este tipo no me deja de hablar de que deberiamos comprar cartas estando
+        en prisi\xF3n"
       objectReference: {fileID: 0}
     - target: {fileID: 1493215157349469175, guid: 07373dbdb62543a43889df134ae6f24e, type: 3}
       propertyPath: m_LocalPosition.x

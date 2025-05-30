@@ -659,9 +659,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gurt: Esto es suficiente?\n\nBig Justice: Conseguiste una palanca, esto
-    servir\xE1!\n\t         Necesitaremos ayuda...\n                   Habla con
-    John Pork, el suele estar en el area com\xFAn.\n\t         \xC9l nos ayudar\xE1"
+  m_text: "Gurt:  Esto es suficiente?\n\nBig Justice: Conseguiste una palanca, esto
+    servir\xE1!\n\t          Necesitaremos ayuda...\n                    Habla con
+    John Pork, \xE9l suele estar en el area com\xFAn.\n\t          \xC9l nos ayudar\xE1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

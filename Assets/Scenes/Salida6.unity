@@ -659,9 +659,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Big Justice: Sabes, me siento mal por dejar a Gurt...\n\nJohn Pork: no
-    pienses en eso, solo usamos la oportunidad que nos di\xF3...\n                 
-    Finalmente somos libres y fue gracias a \xE9l"
+  m_text: "Big Justice: Sabes, me siento mal por dejar a Gurt...\n\nJohn Pork: Nah
+    yo no. Aprovechamos la oportunidad que nos dio y somos libres.\n                  "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

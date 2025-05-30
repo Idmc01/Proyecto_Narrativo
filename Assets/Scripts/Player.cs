@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
             }
             if (itemName == "Scenechanger1")
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Laberinto");
+                UnityEngine.SceneManagement.SceneManager.LoadScene("EntradaLaberinto");
             }
             if (itemName == "Scenechanger2")
             {

@@ -62,6 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalMalo.unity
     guid: 823c3861f1b7c4b4e8cbef150c09d1a9
+  - enabled: 1
+    path: Assets/Scenes/EntradaLaberinto.unity
+    guid: 78dc95465e0274f459082d5ec1b39662
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

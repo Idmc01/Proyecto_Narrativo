@@ -659,10 +659,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gurt: Piensa... Como saldr\xE9 de aqu\xED?\n         Necesitar\xE9 aliados!.\n        
-    Escuch\xE9 a algunos reclusos hablar de un tal Big Justice.\n         Parece
-    ser alguien \xFAtil.\n\tDicen que casi siempre est\xE1 en el comedor, tendr\xE9
-    que buscarlo..."
+  m_text: "Gurt: \xBFC\xF3mo saldr\xE9 de aqu\xED?\n          Necesitar\xE9 aliados...\n         
+    Escuch\xE9 a algunos reclusos hablar de un tal Big Justice.\n          Creo que
+    \xE9l me puede ayudar.\n\tDicen que casi siempre est\xE1 en el comedor, ir\xE9
+    a buscarlo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

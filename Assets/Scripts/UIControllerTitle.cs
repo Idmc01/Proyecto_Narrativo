@@ -71,6 +71,11 @@ public class UIControllerTitle : MonoBehaviour
     public void salida4()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Salida4");
+
+    }
+    public void laberinto()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Laberinto");
     }
     public void salida5()
     {
