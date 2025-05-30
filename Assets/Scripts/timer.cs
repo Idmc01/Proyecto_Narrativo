@@ -5,7 +5,7 @@ using TMPro;
 public class CountdownTimerTMP : MonoBehaviour
 {
     public float tiempoInicial = 180f; 
-    public string nombreEscenaDestino = "17";
+    public int nombreEscenaDestino = 17;
     public TMP_Text textoUI; 
 
     private float tiempoRestante;
