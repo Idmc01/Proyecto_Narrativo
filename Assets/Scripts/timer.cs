@@ -41,6 +41,6 @@ public class CountdownTimerTMP : MonoBehaviour
     {
         int minutos = Mathf.FloorToInt(tiempo / 60f);
         int segundos = Mathf.FloorToInt(tiempo % 60f);
-        return string.Format(" Escapa antes de: {0:00}:{1:00}", minutos, segundos);
+        return string.Format("Escapa antes de: {0:00}:{1:00}", minutos, segundos);
     }
 }

@@ -9,8 +9,8 @@ public class stopTimer : MonoBehaviour
 
         if (temporizador != null)
         {
-            temporizador.tiempoInicial = 1000f;
-            Destroy(temporizador);
+            //temporizador.tiempoInicial = 1000f;
+           // Destroy(temporizador);
         }
     }
 }
