@@ -204,7 +204,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1214180548}
         m_TargetAssemblyTypeName: UIControllerTitle, Assembly-CSharp
-        m_MethodName: salida1
+        m_MethodName: laberinto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
